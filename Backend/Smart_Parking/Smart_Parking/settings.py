@@ -54,9 +54,7 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOW_CREDENTIALS = True
-CORS_ALLOWED_ORIGINS = [
-    "https://smart-parking-lot-system-mu.vercel.app",
-]
+CORS_ALLOW_ALL_ORIGINS = True  
 # settings.py
 STATIC_URL = '/static/'
 STATIC_ROOT = BASE_DIR / "staticfiles"
