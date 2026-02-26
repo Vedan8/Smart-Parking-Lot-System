@@ -53,9 +53,9 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-CORS_ALLOW_CREDENTIALS: True
+CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOWED_ORIGINS = [
-    "https://smart-parking-frontend.onrender.com",
+    "https://smart-parking-lot-system-mu.vercel.app",
 ]
 # settings.py
 STATIC_URL = '/static/'
